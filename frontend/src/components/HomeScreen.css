@@ -1,0 +1,22 @@
+/* HomeScreen.css */
+.home-screen {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 450px;
+}
+
+.product-card img {
+    max-width: 100%;
+}
